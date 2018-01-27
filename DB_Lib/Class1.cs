@@ -4,9 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace dbhandle
+namespace DB_Lib
 {
-    public class Class1
+   public static class Test1
     {
+      public static void Muh()
+        {
+            JetEntityFrameworkProvider.JetConnection.ShowSqlStatements = true;
+        }
+        
     }
 }
