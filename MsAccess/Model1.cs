@@ -1,10 +1,8 @@
-using System.Data.Entity;
-
 using DB.Lib.Models;
+using System.Data.Entity;
 
 namespace DB.Lib
 {
- 
 
     public class Model1 : DbContext
     {
@@ -15,7 +13,7 @@ namespace DB.Lib
         // If you wish to target a different database and/or database provider, modify the 'Model1' 
         // connection string in the application configuration file.
         public Model1()
-            : base("name=DefaultConnection")
+            : base("name=testConnectionString")
         {
         }
 

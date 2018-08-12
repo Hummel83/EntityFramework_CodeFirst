@@ -59,14 +59,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Mirgationstart.cs" />
-    <Compile Include="Farbe.cs" />
+    <Compile Include="Models\Farbe.cs" />
     <Compile Include="Migrations\201801272000271_initial.cs" />
     <Compile Include="Migrations\201801272000271_initial.Designer.cs">
       <DependentUpon>201801272000271_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model1.cs" />
-    <Compile Include="Hunde.cs" />
+    <Compile Include="Models\Hunde.cs" />
     <Compile Include="DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
