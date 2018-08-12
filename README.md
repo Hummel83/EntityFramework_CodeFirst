@@ -2,7 +2,6 @@
 
 entity framwork code first with 
 
-ms access db
-
-mysql
+1. ms access db
+2. mysql
 
