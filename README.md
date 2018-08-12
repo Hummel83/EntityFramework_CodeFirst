@@ -1,3 +1,6 @@
-# test solution with ms access
+# test solution entity
 
-entity framwork code first with ms access db
+entity framwork code first with 
+ms access db
+mysql
+
