@@ -7,9 +7,9 @@
     <ProjectGuid>{DEC68932-9C53-4D55-AAF8-01F4740918B9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DB_Lib</RootNamespace>
-    <AssemblyName>DB_Lib</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>DB.Lib</RootNamespace>
+    <AssemblyName>DB.Lib</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -58,7 +58,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Mirgationstart.cs" />
+    <Compile Include="Farbe.cs" />
     <Compile Include="Migrations\201801272000271_initial.cs" />
     <Compile Include="Migrations\201801272000271_initial.Designer.cs">
       <DependentUpon>201801272000271_initial.cs</DependentUpon>

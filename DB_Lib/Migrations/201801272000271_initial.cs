@@ -33,7 +33,7 @@ namespace DB_Lib.Migrations
         
         public override void Down()
         {
-            DropForeignKey("dbo.Hunde", "Farben_Id", "dbo.Farben");
+            this.DropForeignKey("dbo.Hunde", "Farben_Id", "dbo.Farben");
             DropIndex("dbo.Hunde", new[] { "Farben_Id" });
             DropTable("dbo.Hunde");
             DropTable("dbo.Farben");

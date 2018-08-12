@@ -4,7 +4,7 @@
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="testConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="testConnectionString (Settings)" PropertyReference="ApplicationSettings.DB_Lib.Properties.Settings.GlobalReference.Default.testConnectionString" Provider="System.Data.OleDb" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="testConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="testConnectionString (Settings)" PropertyReference="ApplicationSettings.DB.Lib.Properties.Settings.GlobalReference.Default.testConnectionString" Provider="System.Data.OleDb" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="HundeTableAdapter" GeneratorDataComponentClassName="HundeTableAdapter" Name="Hunde" UserDataComponentName="HundeTableAdapter">

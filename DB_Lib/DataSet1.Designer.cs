@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace DB_Lib {
+namespace DB.Lib {
     
     
     /// <summary>
@@ -1152,7 +1152,7 @@ namespace DB_Lib {
         }
     }
 }
-namespace DB_Lib.DataSet1TableAdapters {
+namespace DB.Lib.DataSet1TableAdapters {
     
     
     /// <summary>
@@ -1318,7 +1318,7 @@ namespace DB_Lib.DataSet1TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.OleDb.OleDbConnection();
-            this._connection.ConnectionString = global::DB_Lib.Properties.Settings.Default.testConnectionString;
+            this._connection.ConnectionString = global::DB.Lib.Properties.Settings.Default.testConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1642,7 +1642,7 @@ namespace DB_Lib.DataSet1TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.OleDb.OleDbConnection();
-            this._connection.ConnectionString = global::DB_Lib.Properties.Settings.Default.testConnectionString;
+            this._connection.ConnectionString = global::DB.Lib.Properties.Settings.Default.testConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

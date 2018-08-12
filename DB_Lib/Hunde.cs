@@ -1,29 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DB_Lib
+﻿namespace DB.Lib
 {
+    using System.ComponentModel.DataAnnotations.Schema;
+
     [Table("Hunde")]
     public class Hund
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public virtual Farbe Farben{ get; set; }
+        public virtual int Id { get; set; }
 
-        public int Alter { get; set; }
-    }
+        public virtual string Name { get; set; }
 
-    [Table("Farben")]
-    public class Farbe
-    {
-        public int Id { get; set; }
-        
-        public string Farb { get; set; }
+        public virtual Farbe Farben { get; set; }
 
-       
+        public virtual int Alter { get; set; }
     }
 }

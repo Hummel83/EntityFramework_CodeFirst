@@ -1,18 +1,15 @@
-namespace DB_Lib.Migrations
+namespace DB.Lib.Migrations
 {
-    using System;
-    using System.Data.Entity;
     using System.Data.Entity.Migrations;
-    using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<DB_Lib.Model1>
+    internal sealed class Configuration : DbMigrationsConfiguration<Model1>
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            this.AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(DB_Lib.Model1 context)
+        protected override void Seed(Model1 context)
         {
             //  This method will be called after migrating to the latest version.
 
