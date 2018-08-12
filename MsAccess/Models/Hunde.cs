@@ -1,4 +1,4 @@
-﻿namespace DB.Lib
+﻿namespace DB.Lib.Models
 {
     using System.ComponentModel.DataAnnotations.Schema;
 

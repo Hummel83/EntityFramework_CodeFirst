@@ -1,6 +1,10 @@
+using System.Data.Entity;
+
+using DB.Lib.Models;
+
 namespace DB.Lib
 {
-    using System.Data.Entity;
+ 
 
     public class Model1 : DbContext
     {
