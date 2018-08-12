@@ -1,15 +1,12 @@
-﻿namespace DB.Lib.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+namespace MsAccess
 {
-    using System.ComponentModel.DataAnnotations.Schema;
 
-    /// <summary>
-    /// The farbe.
-    /// </summary>
     [Table("Farben")]
-    public class Farbe
+    public class Farben
     {
         public int Id { get; set; }
-        
-        public string Farb { get; set; }
+
+        public string Farbe { get; set; }
     }
 }

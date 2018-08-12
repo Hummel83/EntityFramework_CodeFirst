@@ -1,15 +1,17 @@
-namespace DB.Lib.Migrations
-{
-    using System.Data.Entity.Migrations;
+using System.Data.Entity.Migrations;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Model1>
+namespace MsAccess
+{
+
+
+    internal sealed class Configuration : DbMigrationsConfiguration<Context>
     {
         public Configuration()
         {
             this.AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(Model1 context)
+        protected override void Seed(Context context)
         {
             //  This method will be called after migrating to the latest version.
 

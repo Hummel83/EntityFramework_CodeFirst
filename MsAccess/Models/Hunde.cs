@@ -1,16 +1,21 @@
-﻿namespace DB.Lib.Models
-{
-    using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
+namespace MsAccess
+{
     [Table("Hunde")]
-    public class Hund
+    public class Hunde
     {
+
         public virtual int Id { get; set; }
 
         public virtual string Name { get; set; }
 
-        public virtual Farbe Farben { get; set; }
+        public virtual Farben Farbe { get; set; }
 
         public virtual int Alter { get; set; }
+
+        public virtual byte BeinAnzahl { get; set; }
+
+
     }
 }

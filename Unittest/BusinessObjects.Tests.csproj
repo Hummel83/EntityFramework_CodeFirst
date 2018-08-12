@@ -49,16 +49,21 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="DemoData.cs" />
+    <Compile Include="MSAccess.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BusinessObjectLib\BusinessObjects.csproj">
-      <Project>{ce870ca4-3a76-4dca-9686-9c3090652e1c}</Project>
-      <Name>BusinessObjects</Name>
+    <ProjectReference Include="..\MsAccess\MsAccess.csproj">
+      <Project>{dec68932-9c53-4d55-aaf8-01f4740918b9}</Project>
+      <Name>MsAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MySQL\MySQL.csproj">
+      <Project>{6dfebdfa-2762-4448-b57a-2b1e42fe8e98}</Project>
+      <Name>MySQL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

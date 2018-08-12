@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{CE870CA4-3A76-4DCA-9686-9C3090652E1C}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BusinessObjectLib</RootNamespace>
     <AssemblyName>BusinessObjectLib</AssemblyName>
@@ -30,16 +30,26 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>BusinessObjectLib.Solution</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <ProjectReference Include="..\MsAccess\MsAccess.csproj">
+      <Project>{dec68932-9c53-4d55-aaf8-01f4740918b9}</Project>
+      <Name>MsAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MySQL\MySQL.csproj">
+      <Project>{6dfebdfa-2762-4448-b57a-2b1e42fe8e98}</Project>
+      <Name>MySQL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
