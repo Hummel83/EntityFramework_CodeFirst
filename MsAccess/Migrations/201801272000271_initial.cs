@@ -2,7 +2,7 @@ using System.Data.Entity.Migrations;
 
 namespace MsAccess
 {
-    public partial class initial : DbMigration
+    public class Initial : DbMigration
     {
         public override void Up()
         {
