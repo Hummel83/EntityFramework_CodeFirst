@@ -3,5 +3,5 @@
 entity framwork code first with 
 
 1. ms access db
-2. mysql
+2. SQLite
 
