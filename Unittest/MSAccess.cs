@@ -1,5 +1,5 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using MsAccess;
 
 namespace Unittest
 {
@@ -7,8 +7,12 @@ namespace Unittest
     public class MSAccess
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestHundDemoDate()
         {
+            var blu = new DemoHundeData();
+            var huhu = blu.Hundeerstellen();
+
+            Assert.AreEqual(1, huhu.Count);
         }
     }
 }

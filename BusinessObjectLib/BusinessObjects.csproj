@@ -34,6 +34,8 @@
     <StartupObject>BusinessObjectLib.Solution</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Devart.Data, Version=5.0.1994.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL" />
+    <Reference Include="Devart.Data.MySql, Version=8.12.1202.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
   </ItemGroup>
@@ -46,10 +48,9 @@
       <Project>{dec68932-9c53-4d55-aaf8-01f4740918b9}</Project>
       <Name>MsAccess</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MySQL\MySQL.csproj">
-      <Project>{6dfebdfa-2762-4448-b57a-2b1e42fe8e98}</Project>
-      <Name>MySQL</Name>
-    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

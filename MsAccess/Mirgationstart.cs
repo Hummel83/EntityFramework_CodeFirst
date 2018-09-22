@@ -1,12 +1,12 @@
-﻿using System;
-using System.Linq;
-
-using JetEntityFrameworkProvider;
-
+﻿using JetEntityFrameworkProvider;
 using MsAccess.Properties;
+using System;
+using System.Linq;
 
 namespace MsAccess
 {
+    using System.Collections.Generic;
+
     using static Settings;
 
     public static class Mirgationstart
@@ -19,9 +19,17 @@ namespace MsAccess
             {
                 JetConnection.ShowSqlStatements = true;
 
-                using (Context con = new Context())
+                using (AccessContext con = new AccessContext())
                 {
-                    con.Hunde.Count();
+                    var blu = new DemoHundeData();
+                    List<Hunde> huhu = blu.Hundeerstellen();
+                    foreach (var hundi in huhu)
+                    {
+                        con.Hunde.Add(hundi);
+                    }
+                    con.SaveChanges();
+
+                    int count = con.Hunde.Count();
                 }
             }
             catch (Exception e)
