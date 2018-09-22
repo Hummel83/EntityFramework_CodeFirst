@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using Repo.MsAccess.Models;
 
-namespace MsAccess
+namespace Repo.MsAccess.DemoData
 {
     public class DemoHundeData
     {
@@ -13,7 +14,12 @@ namespace MsAccess
             muh.Farbe = "blau2";
 
             Hunde bello = new Hunde
-            { Name = "Bernd", Alter = 4, BeinAnzahl = 3, Farbe = muh };
+            {
+                Name = "Bernd",
+                Alter = 4,
+                BeinAnzahl = 3,
+                Farbe = muh
+            };
 
             Hundeliste.Add(bello);
 

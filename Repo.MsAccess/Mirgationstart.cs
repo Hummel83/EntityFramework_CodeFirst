@@ -1,17 +1,17 @@
-﻿using JetEntityFrameworkProvider;
-using MsAccess.Properties;
-using System;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using JetEntityFrameworkProvider;
+using MsAccess;
+using Repo.MsAccess.DemoData;
+using Repo.MsAccess.Models;
 
-namespace MsAccess
+
+namespace Repo.MsAccess
 {
-    using System.Collections.Generic;
-
-    using static Settings;
-
     public static class Mirgationstart
     {
-        private static readonly string Cs = Default.testConnectionString;
+        private static readonly string Cs = Properties.Settings.Default.testConnectionString;
 
         public static void Muh()
         {
@@ -35,6 +35,7 @@ namespace MsAccess
             catch (Exception e)
             {
                 Console.WriteLine(e);
+
                 throw;
             }
 

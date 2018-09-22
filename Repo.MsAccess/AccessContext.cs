@@ -1,9 +1,10 @@
+using System;
 using System.Data.Entity;
+using MsAccess;
+using Repo.MsAccess.Models;
 
-namespace MsAccess
+namespace Repo.MsAccess
 {
-    using System;
-
     public class AccessContext 
         : DbContext
     {

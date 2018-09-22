@@ -39,8 +39,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Devart.Data, Version=5.0.1994.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL" />
-    <Reference Include="Devart.Data.MySql, Version=8.12.1202.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\MSTest.TestFramework.1.2.0\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
     </Reference>
@@ -51,6 +49,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SqLiteDbConMod.cs" />
     <Compile Include="MSAccess.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -59,9 +58,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MsAccess\MsAccess.csproj">
+    <ProjectReference Include="..\Repo.MsAccess\Repo.MsAccess.csproj">
       <Project>{dec68932-9c53-4d55-aaf8-01f4740918b9}</Project>
-      <Name>MsAccess</Name>
+      <Name>Repo.MsAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Repo.SqLite\Repo.SqLite.csproj">
+      <Project>{73dba4ac-1398-4451-9a4b-a75fbf482788}</Project>
+      <Name>Repo.SqLite</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

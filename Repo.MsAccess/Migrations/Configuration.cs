@@ -1,3 +1,5 @@
+using Repo.MsAccess;
+
 namespace MsAccess.Migrations
 {
     using System;
@@ -5,7 +7,7 @@ namespace MsAccess.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<MsAccess.AccessContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<AccessContext>
     {
         public Configuration()
         {
@@ -13,7 +15,7 @@ namespace MsAccess.Migrations
            
         }
 
-        protected override void Seed(MsAccess.AccessContext context)
+        protected override void Seed(AccessContext context)
         {
             //  This method will be called after migrating to the latest version.
 

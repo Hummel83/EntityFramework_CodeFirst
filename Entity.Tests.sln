@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsAccess", "MsAccess\MsAccess.csproj", "{DEC68932-9C53-4D55-AAF8-01F4740918B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsAccess", "Repo.MsAccess\Repo.MsAccess.csproj", "{DEC68932-9C53-4D55-AAF8-01F4740918B9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unittest", "Unittest\Unittest.csproj", "{E0A3C1D2-83AD-4C76-8254-EBD5E1A34CBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjects", "BusinessObjectLib\BusinessObjects.csproj", "{CE870CA4-3A76-4DCA-9686-9C3090652E1C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjects", "BusinessObject\BusinessObjects.csproj", "{CE870CA4-3A76-4DCA-9686-9C3090652E1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqLite", "SqLite\SqLite.csproj", "{73DBA4AC-1398-4451-9A4B-A75FBF482788}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repo.SqLite", "Repo.SqLite\Repo.SqLite.csproj", "{73DBA4AC-1398-4451-9A4B-A75FBF482788}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
-namespace MsAccess
+
+namespace Repo.MsAccess.Models
 {
 
     [Table("Farben")]
