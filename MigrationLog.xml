@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='_MigrationReport_Files/MigrationReport.xslt'?>
+<UpgradeLog>
+<Properties>
+<Property Name="Solution" Value="G:\Visual Studio\Projects\EnityFrameworkMsAccess_Test\Entity.Tests.sln"></Property>
+<Property Name="Solution File" Value="G:\Visual Studio\Projects\EnityFrameworkMsAccess_Test"></Property>
+<Property Name="Date" Value="17.08.2018 16:53:16"></Property>
+</Properties>
+<Event ErrorLevel="3" Project="MsAccess" Source="App.config" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="MsAccess" Source="Context.cs" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="MsAccess" Source="DemoData.cs" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="MsAccess" Source="201801272000271_initial.cs" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="MsAccess" Source="Configuration.cs" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="MsAccess" Source="Mirgationstart.cs" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="MsAccess" Source="Farbe.cs" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="MsAccess" Source="Hunde.cs" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="MsAccess" Source="MsAccessInit.cs" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="MsAccess" Source="packages.config" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="MsAccess" Source="AssemblyInfo.cs" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="MsAccess" Source="Settings.Designer.cs" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="BusinessObjects.Tests" Source="app.config" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="BusinessObjects.Tests" Source="DemoData.cs" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="BusinessObjects.Tests" Source="MSAccess.cs" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="BusinessObjects.Tests" Source="packages.config" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="BusinessObjects.Tests" Source="AssemblyInfo.cs" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="BusinessObjects" Source="Program.cs" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="BusinessObjects" Source="AssemblyInfo.cs" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="MySQL" Source="App.config" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="MySQL" Source="Model1.cs" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="MySQL" Source="packages.config" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="MySQL" Source="AssemblyInfo.cs" Description="No need to convert"></Event>
+<Event ErrorLevel="3" Project="MySQL" Source="Settings.Designer.cs" Description="No need to convert"></Event>
+
+</UpgradeLog>
