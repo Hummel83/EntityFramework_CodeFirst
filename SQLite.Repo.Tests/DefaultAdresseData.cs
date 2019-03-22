@@ -1,12 +1,5 @@
-﻿using Repo.SqLite.Contexts;
-using Repo.SqLite.Models;
-using Repo.SqLite.Repos;
-using System;
+﻿using SqLite.Repo.Models;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Xunit;
 
 namespace Unittests
 {

@@ -1,12 +1,13 @@
-﻿using System.Configuration;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 
 namespace SqLite.Repo
 {
     public class AppConfigSettings
     {
         public IList<string> SqLiteConnectionStrings { get; }
+
         public AppConfigSettings()
         {
             SqLiteConnectionStrings = new List<string>();
@@ -16,19 +17,13 @@ namespace SqLite.Repo
         {
             try
             {
-               var  seetingCollection = ConfigurationManager.ConnectionStrings;
-
-               
-
+                var seetingCollection = ConfigurationManager.ConnectionStrings;
             }
             catch (Exception)
             {
-
                 throw;
             }
             return SqLiteConnectionStrings;
         }
     }
 }
-
-

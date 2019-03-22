@@ -1,6 +1,5 @@
 ﻿using Xunit;
-using Repo.SqLite;
-
+using SqLite.Repo;
 
 namespace Unittests.SqLite
 {

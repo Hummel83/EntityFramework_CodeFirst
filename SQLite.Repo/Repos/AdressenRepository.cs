@@ -1,8 +1,7 @@
-﻿
-
-using SqLite.Repo.Models;
+﻿using SqLite.Repo.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace SqLite.Repo.Repos
 {
@@ -17,10 +16,8 @@ namespace SqLite.Repo.Repos
             }
             catch (Exception)
             {
-
                 throw;
             }
-       
         }
     }
 }
