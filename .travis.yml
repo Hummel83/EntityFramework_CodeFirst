@@ -1,0 +1,12 @@
+language: csharp
+
+Solution: LeedCode.sln
+
+mono: 5.10.0
+dist: trusty
+
+install:
+- nuget restore EF.Tests.sln
+
+script:
+- msbuild /p:Configuration=Debug EF.Tests.sln 
