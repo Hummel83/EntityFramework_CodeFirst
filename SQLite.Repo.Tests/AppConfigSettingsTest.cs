@@ -1,7 +1,7 @@
-﻿using Xunit;
-using SqLite.Repo;
+﻿using SQLite.Repo;
+using Xunit;
 
-namespace Unittests.SqLite
+namespace Unittests
 {
     public class AppConfigSettingsTest
     {
@@ -20,9 +20,5 @@ namespace Unittests.SqLite
 
             Assert.NotEmpty(bla);
         }
-
-
     }
 }
-
-

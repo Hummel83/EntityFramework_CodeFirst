@@ -1,11 +1,8 @@
-﻿
-
-using MsAccess.Repo.DemoData;
+﻿using MsAccess.Repo.DemoData;
 using Xunit;
 
-namespace Unittest
+namespace MsAccess.Repo.Tests
 {
-
     public class MSAccess
     {
         [Fact]
@@ -18,5 +15,3 @@ namespace Unittest
         }
     }
 }
-
-

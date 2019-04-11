@@ -62,13 +62,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DemoData\DemoHundeData.cs" />
-    <Compile Include="Migrations\201808241701293_init.cs" />
-    <Compile Include="Migrations\201808241701293_init.Designer.cs">
-      <DependentUpon>201808241701293_init.cs</DependentUpon>
+    <Compile Include="Migrations\init.cs" />
+    <Compile Include="Migrations\init.Designer.cs">
+      <DependentUpon>init.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Mirgationstart.cs" />
-    <Compile Include="Models\Farbe.cs" />
+    <Compile Include="Models\Farben.cs" />
     <Compile Include="AccessContext.cs" />
     <Compile Include="Models\Hunde.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -87,8 +87,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201808241701293_init.resx">
-      <DependentUpon>201808241701293_init.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\init.resx">
+      <DependentUpon>init.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

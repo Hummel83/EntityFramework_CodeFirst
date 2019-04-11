@@ -1,8 +1,6 @@
 ﻿using JetEntityFrameworkProvider;
 using MsAccess.Repo.DemoData;
-using MsAccess.Repo.Models;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 
 namespace MsAccess.Repo

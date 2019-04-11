@@ -1,4 +1,4 @@
-﻿using SqLite.Repo.Models;
+﻿using SQLite.Repo.Models;
 using System.Collections.Generic;
 
 namespace Unittests
@@ -6,10 +6,12 @@ namespace Unittests
     public class DefaultAdresseData
     {
         private readonly IList<Adresse> _adresse;
-        public DefaultAdresseData(IList<Adresse> adresse )
+
+        public DefaultAdresseData(IList<Adresse> adresse)
         {
             _adresse = adresse;
         }
+
         public IList<Adresse> Adresse => _adresse;
 
         public IList<Adresse> ReadEmptyTable()
@@ -20,6 +22,5 @@ namespace Unittests
 
             return Adresse;
         }
-
     }
 }

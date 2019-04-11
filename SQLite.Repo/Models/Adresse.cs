@@ -1,4 +1,4 @@
-﻿namespace SqLite.Repo.Models
+﻿namespace SQLite.Repo.Models
 {
     public class Adresse : BaseID
     {

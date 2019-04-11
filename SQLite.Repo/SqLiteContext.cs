@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using SqLite.Repo.Models;
+using SQLite.Repo.Models;
 
-namespace SqLite.Repo
+namespace SQLite.Repo
 {
     public class SqLiteContext : DbContext
     {

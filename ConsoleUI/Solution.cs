@@ -1,13 +1,8 @@
-﻿
-using MsAccess.Repo;
+﻿using MsAccess.Repo;
 using System;
 
-
-namespace BusinessObjectLib
-{   
-
-   
-
+namespace ConsoleUI
+{
     internal static class Solution
     {
         public static void Main()

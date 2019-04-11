@@ -1,5 +1,3 @@
-
-
 namespace MsAccess.Repo.Migrations
 {
     using System.Data.Entity.Migrations;

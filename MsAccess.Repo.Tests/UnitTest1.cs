@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 
 namespace MsAccess.Repo.Tests
@@ -8,7 +7,6 @@ namespace MsAccess.Repo.Tests
         [Fact]
         public void Test1()
         {
-
         }
     }
 }

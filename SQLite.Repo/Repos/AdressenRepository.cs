@@ -1,9 +1,9 @@
-﻿using SqLite.Repo.Models;
+﻿using SQLite.Repo.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SqLite.Repo.Repos
+namespace SQLite.Repo.Repos
 {
     public class AdressenRepository
     {

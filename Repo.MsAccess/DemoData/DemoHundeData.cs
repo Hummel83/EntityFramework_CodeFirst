@@ -1,7 +1,7 @@
-﻿using MsAccess.Repo.Models;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using Repo.MsAccess.Models;
 
-namespace MsAccess.Repo.DemoData
+namespace Repo.MsAccess.DemoData
 {
     public class DemoHundeData
     {
@@ -10,10 +10,8 @@ namespace MsAccess.Repo.DemoData
             List<Hunde> Hundeliste = new List<Hunde>();
 
             Farben muh;
-            muh = new Farben
-            {
-                Farbe = "blau2"
-            };
+            muh = new Farben();
+            muh.Farbe = "blau2";
 
             Hunde bello = new Hunde
             {

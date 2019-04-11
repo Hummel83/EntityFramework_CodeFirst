@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Configuration;
 
-namespace SqLite.Repo
+namespace SQLite.Repo
 {
     public class AppConfigSettings
     {
