@@ -1,7 +1,6 @@
-﻿using SQLite.Repo.Models;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
+using SQLite.Repo.Models;
 
 namespace SQLite.Repo.Repos
 {
@@ -9,15 +8,8 @@ namespace SQLite.Repo.Repos
     {
         public List<Adresse> GetAdressen()
         {
-            try
-            {
-                SqLiteContext adressenContext = new SqLiteContext();
-                return adressenContext.Adressen.ToList();
-            }
-            catch (Exception)
-            {
-                throw;
-            }
+            var adressenContext = new SqLiteContext();
+            return adressenContext.Adressen.ToList();
         }
     }
 }

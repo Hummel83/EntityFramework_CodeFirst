@@ -14,7 +14,8 @@ namespace SQLite.Repo
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite(@"data source=\F:\DEV_Projects\Projects\EntityFramework_CodeFirst\Unittest\entitySQLiteTests.db");
+            optionsBuilder.UseSqlite(
+                @"data source=\F:\DEV_Projects\Projects\EntityFramework_CodeFirst\Unittest\entitySQLiteTests.db");
         }
     }
 }
