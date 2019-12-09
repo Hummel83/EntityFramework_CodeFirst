@@ -10,17 +10,16 @@ namespace Unittests
         public DefaultAdresseData(IList<Adresse> adresse)
         {
             _adresse = adresse;
+            AddTestUserToAddress();
         }
 
         public IList<Adresse> Adresse => _adresse;
 
-        public IList<Adresse> ReadEmptyTable()
+        public void AddTestUserToAddress()
         {
             _adresse.Add(new Adresse() { Id = 0, Vorname = "Bert", Nachname = "Hallo" });
             _adresse.Add(new Adresse() { Id = 1, Vorname = "Berti", Nachname = "Lieb1" });
-            _adresse.Add(new Adresse() { Id = 2, Vorname = "Berta", Nachname = "Bumm2" });
-
-            return Adresse;
+            _adresse.Add(new Adresse() { Id = 2, Vorname = "Berta", Nachname = "Bumm2" });            
         }
     }
 }

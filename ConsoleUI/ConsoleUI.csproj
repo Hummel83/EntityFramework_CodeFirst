@@ -45,11 +45,5 @@
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MsAccess.Repo\MsAccess.Repo.csproj">
-      <Project>{dec68932-9c53-4d55-aaf8-01f4740918b9}</Project>
-      <Name>MsAccess.Repo</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

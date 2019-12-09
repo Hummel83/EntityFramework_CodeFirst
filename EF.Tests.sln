@@ -3,13 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28714.193
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsAccess.Repo", "MsAccess.Repo\MsAccess.Repo.csproj", "{DEC68932-9C53-4D55-AAF8-01F4740918B9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLite.Repo.Tests", "SQLite.Repo.Tests\SQLite.Repo.Tests.csproj", "{E0A3C1D2-83AD-4C76-8254-EBD5E1A34CBA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{CE870CA4-3A76-4DCA-9686-9C3090652E1C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MsAccess.Repo.Tests", "MsAccess.Repo.Tests\MsAccess.Repo.Tests.csproj", "{F9E2F043-0213-4B9F-A745-009C2CE5013A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLite.Repo", "SQLite.Repo\SQLite.Repo.csproj", "{2E215092-7386-4087-87D1-7373CECE0113}"
 EndProject
@@ -19,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DEC68932-9C53-4D55-AAF8-01F4740918B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DEC68932-9C53-4D55-AAF8-01F4740918B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DEC68932-9C53-4D55-AAF8-01F4740918B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DEC68932-9C53-4D55-AAF8-01F4740918B9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E0A3C1D2-83AD-4C76-8254-EBD5E1A34CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E0A3C1D2-83AD-4C76-8254-EBD5E1A34CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0A3C1D2-83AD-4C76-8254-EBD5E1A34CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -31,10 +23,6 @@ Global
 		{CE870CA4-3A76-4DCA-9686-9C3090652E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE870CA4-3A76-4DCA-9686-9C3090652E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE870CA4-3A76-4DCA-9686-9C3090652E1C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F9E2F043-0213-4B9F-A745-009C2CE5013A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F9E2F043-0213-4B9F-A745-009C2CE5013A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F9E2F043-0213-4B9F-A745-009C2CE5013A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F9E2F043-0213-4B9F-A745-009C2CE5013A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2E215092-7386-4087-87D1-7373CECE0113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2E215092-7386-4087-87D1-7373CECE0113}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E215092-7386-4087-87D1-7373CECE0113}.Release|Any CPU.ActiveCfg = Release|Any CPU

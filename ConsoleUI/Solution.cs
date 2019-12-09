@@ -1,5 +1,4 @@
-﻿using MsAccess.Repo;
-using System;
+﻿using System;
 
 namespace ConsoleUI
 {
@@ -7,9 +6,7 @@ namespace ConsoleUI
     {
         public static void Main()
         {
-            Mirgationstart.Muh();
-            Console.WriteLine(@"Migration fertig");
-            Console.ReadKey();
+            Console.WriteLine();
         }
     }
 }
