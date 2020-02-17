@@ -1,11 +1,13 @@
 ﻿namespace SQLite.Repo.Models
 {
-    public class Adresse : BaseID
+    public class Adresse 
     {
         public Adresse()
         {
             Postleitzahl = new Postleitzahlen();
         }
+
+        public int AdressId { get; set; }
 
         public string Vorname { get; set; }
         public string Nachname { get; set; }

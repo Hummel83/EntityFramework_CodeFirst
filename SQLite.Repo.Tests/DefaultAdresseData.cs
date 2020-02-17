@@ -17,9 +17,9 @@ namespace Unittests
 
         public void AddTestUserToAddress()
         {
-            _adresse.Add(new Adresse() { Id = 0, Vorname = "Bert", Nachname = "Hallo" });
-            _adresse.Add(new Adresse() { Id = 1, Vorname = "Berti", Nachname = "Lieb1" });
-            _adresse.Add(new Adresse() { Id = 2, Vorname = "Berta", Nachname = "Bumm2" });            
+            _adresse.Add(new Adresse() { AdressId = 0, Vorname = "Bert", Nachname = "Hallo" });
+            _adresse.Add(new Adresse() { AdressId = 1, Vorname = "Berti", Nachname = "Lieb1" });
+            _adresse.Add(new Adresse() { AdressId = 2, Vorname = "Berta", Nachname = "Bumm2" });            
         }
     }
 }

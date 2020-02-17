@@ -15,10 +15,10 @@ namespace Unittests
         [Fact]
         public void GetAllConnectionsString()
         {
-            var seetingCollection = new AppConfigSettings();
-            var bla = seetingCollection.GetConnectionstrings();
+            var Acs = new AppConfigSettings();
+            var bla = Acs.GetConnectionStrings();
 
-            Assert.NotEmpty(bla);
+            Assert.Equal(2, Acs.SqlConnectionStrings.Count);
         }
     }
 }
