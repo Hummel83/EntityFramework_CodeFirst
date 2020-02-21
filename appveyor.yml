@@ -4,6 +4,8 @@ before_build:
 - nuget restore
 - choco install opencover.portable
 - choco install codecov
+- choco xunit
+
 
 build:
   project: EF.Tests.sln
