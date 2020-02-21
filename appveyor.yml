@@ -1,14 +1,20 @@
-image: Visual Studio 2017
+image: Visual Studio 2019
 
 before_build:
 - nuget restore
+- choco install opencover.portable
+- choco install codecov
 
 build:
   project: EF.Tests.sln
   verbosity: minimal
 
 test_script:
-- .\packages\OpenCover.4.7.922\tools\OpenCover.Console.exe -register:administratorr -target:".\packages\xunit.runner.console.2.4.1\tools\net471\xunit.console.x86.exe" -targetargs:".\UnitTests\bin\Debug\UnitTests.dll -noshadow" -filter:"+[LeedCodeLib*]* -[UnitTests*]*" -output:".\MyProject_coverage.xml"
+#- .\packages\OpenCover.4.7.922\tools\OpenCover.Console.exe -register:administrator -target:".\packages\xunit.runner.console.2.4.1\tools\net471\xunit.console.x86.exe" -targetargs:".\UnitTests\bin\Debug\UnitTests.dll -noshadow" -output:".\MyProject_coverage.xml"
+
+- OpenCover.Console.exe -register:administrator -target:"%xunit20%\xunit.console.x86.exe" -targetargs:".\UnitTests\bin\Debug\UnitTests.dll -noshadow" -output:".\MyProject_coverage.xml"
+
 
 #upload report
-- .\packages\Codecov.1.4.0\tools\codecov.exe -f "MyProject_coverage.xml"
+- codecov -f "MyProject_coverage.xml"
+#- .\packages\Codecov.1.4.0\tools\codecov.exe -f "MyProject_coverage.xml"
