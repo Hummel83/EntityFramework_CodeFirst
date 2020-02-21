@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace Sqlite.Domain
+﻿namespace Sqlite.Domain
 {
     public class Quote
     {
@@ -8,6 +6,5 @@ namespace Sqlite.Domain
         public string Text { get; set; }
         public Samurai Samurai { get; set; }
         public int SamuraiId { get; set; }
-
     }
 }
