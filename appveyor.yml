@@ -12,7 +12,7 @@ build:
 test_script:
 #- .\packages\OpenCover.4.7.922\tools\OpenCover.Console.exe -register:administrator -target:".\packages\xunit.runner.console.2.4.1\tools\net471\xunit.console.x86.exe" -targetargs:".\UnitTests\bin\Debug\UnitTests.dll -noshadow" -output:".\MyProject_coverage.xml"
 
-- OpenCover.Console.exe -register:administrator -target:"%xunit20%\xunit.console.x86.exe" -targetargs:".\UnitTests\bin\Debug\UnitTests.dll -noshadow" -output:".\MyProject_coverage.xml"
+- OpenCover.Console.exe -register:administrator -target:"%xunit20%\xunit.console.x86.exe" -targetargs:"UnitTests\bin\Debug\netcoreapp3.1\UnitTests.dll -noshadow" -output:".\MyProject_coverage.xml"
 
 
 #upload report
