@@ -8,8 +8,6 @@ skip_commits:
   - LICENSE
   - README.md
   
- clone_folder: C:\EntityFramework_CodeFirst
-
 before_build:
 - nuget restore
 - choco install opencover.portable
