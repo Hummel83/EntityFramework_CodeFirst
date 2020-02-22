@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28714.193
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLite.Repo.Tests", "SQLite.Repo.Tests\SQLite.Repo.Tests.csproj", "{E0A3C1D2-83AD-4C76-8254-EBD5E1A34CBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sqlite.Domain", "Sqlite.Domain\Sqlite.Domain.csproj", "{1D97088E-A7F1-4FA8-A401-CA3385CA5AE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{CE870CA4-3A76-4DCA-9686-9C3090652E1C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sqlite.Data", "Sqlite.Data\Sqlite.Data.csproj", "{3099BF3F-12FE-4D66-926A-A7083A0F17BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLite.Repo", "SQLite.Repo\SQLite.Repo.csproj", "{2E215092-7386-4087-87D1-7373CECE0113}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{EB1DF134-B05C-47A5-9831-823D3ECF6D6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E0A3C1D2-83AD-4C76-8254-EBD5E1A34CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E0A3C1D2-83AD-4C76-8254-EBD5E1A34CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E0A3C1D2-83AD-4C76-8254-EBD5E1A34CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E0A3C1D2-83AD-4C76-8254-EBD5E1A34CBA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CE870CA4-3A76-4DCA-9686-9C3090652E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE870CA4-3A76-4DCA-9686-9C3090652E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE870CA4-3A76-4DCA-9686-9C3090652E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE870CA4-3A76-4DCA-9686-9C3090652E1C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2E215092-7386-4087-87D1-7373CECE0113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2E215092-7386-4087-87D1-7373CECE0113}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E215092-7386-4087-87D1-7373CECE0113}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2E215092-7386-4087-87D1-7373CECE0113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D97088E-A7F1-4FA8-A401-CA3385CA5AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D97088E-A7F1-4FA8-A401-CA3385CA5AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D97088E-A7F1-4FA8-A401-CA3385CA5AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D97088E-A7F1-4FA8-A401-CA3385CA5AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3099BF3F-12FE-4D66-926A-A7083A0F17BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3099BF3F-12FE-4D66-926A-A7083A0F17BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3099BF3F-12FE-4D66-926A-A7083A0F17BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3099BF3F-12FE-4D66-926A-A7083A0F17BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB1DF134-B05C-47A5-9831-823D3ECF6D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB1DF134-B05C-47A5-9831-823D3ECF6D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB1DF134-B05C-47A5-9831-823D3ECF6D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB1DF134-B05C-47A5-9831-823D3ECF6D6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
