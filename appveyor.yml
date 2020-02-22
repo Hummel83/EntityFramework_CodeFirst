@@ -11,7 +11,7 @@ build:
   verbosity: minimal
 
 test_script:
-- OpenCover.Console.exe -register:administrator -target:".\xunit.console.x86.exe" -targetargs:"UnitTests\bin\Debug\netcoreapp3.1\UnitTests.dll -noshadow" -output:".\MyProject_coverage.xml"
+- OpenCover.Console.exe -register:administrator -target:".\xunit.console.exe" -targetargs:"UnitTests\bin\Debug\netcoreapp3.1\UnitTests.dll" -output:".\MyProject_coverage.xml"
 
 #upload report
 - codecov -f "MyProject_coverage.xml"
