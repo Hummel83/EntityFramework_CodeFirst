@@ -14,6 +14,11 @@ namespace UnitTests
             _context = new SamuraiContext();
         }
 
+        public void Dispose()
+        {
+            GC.SuppressFinalize(this);
+        }
+
         private readonly SamuraiContext _context;
 
         private List<Samurai> GetSamurai()
@@ -48,7 +53,6 @@ namespace UnitTests
             var samu = GetSamurai();
             var actual = samu.FirstOrDefault()?.Name;
 
-            
 
             //Assert
             Assert.Equal(expect, actual);
@@ -56,12 +60,6 @@ namespace UnitTests
             //cleanUp
             DeleteAllSamuraiItems();
             Dispose();
-        }
-
-        public void Dispose()
-        {
-           GC.SuppressFinalize(this);
-
         }
     }
 }
