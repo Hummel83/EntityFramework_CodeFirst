@@ -5,12 +5,12 @@ namespace Sqlite.Data
 {
     public class SamuraiContext : DbContext
     {
-        private readonly string _localMsSqlDb =
-            "Data Source =(localdb)\\MSSQLLocalDB; Initial Catalog = SamuraiAppData";
-
         //local testDb path
         private readonly string _bla =
             "Data Source = (LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Chris\\Documents\test1.mdf;Integrated Security = True; Connect Timeout = 30";
+
+        private readonly string _localMsSqlDb =
+            "Data Source =(localdb)\\MSSQLLocalDB; Initial Catalog = SamuraiAppData";
 
         /// <summary>
         ///     Use Default MSSql ConnectionsString

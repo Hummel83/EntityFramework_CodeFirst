@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Sqlite.Data;
@@ -6,11 +7,16 @@ using Xunit;
 
 namespace UnitTests
 {
-    public class SamuraiContextTests
+    public class SamuraiContextTests : IDisposable
     {
         public SamuraiContextTests()
         {
             _context = new SamuraiContext();
+        }
+
+        public void Dispose()
+        {
+            GC.SuppressFinalize(this);
         }
 
         private readonly SamuraiContext _context;
@@ -47,11 +53,13 @@ namespace UnitTests
             var samu = GetSamurai();
             var actual = samu.FirstOrDefault()?.Name;
 
-            //cleanUp
-            DeleteAllSamuraiItems();
 
             //Assert
             Assert.Equal(expect, actual);
+
+            //cleanUp
+            DeleteAllSamuraiItems();
+            Dispose();
         }
     }
 }

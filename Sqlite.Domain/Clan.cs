@@ -1,8 +1,16 @@
-﻿namespace Sqlite.Domain
+﻿using System.Collections.Generic;
+
+namespace Sqlite.Domain
 {
     public class Clan
     {
-        public int Id { get; set; }
+        public Clan()
+        {
+            Samurai= new HashSet<Samurai>();
+        }
+        public int ClanId { get; set; }
         public string ClanName { get; set; }
+        public virtual ICollection<Samurai> Samurai { get; set; }
+
     }
 }
