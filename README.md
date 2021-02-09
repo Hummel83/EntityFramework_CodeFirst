@@ -1,7 +1,7 @@
 # test solution
 
-entity framwork code first with 
+entity framwork core code first with 
 
-##### local MsSql
-#### SqLite 
+##### local MsSql - Samurai App
+
 
