@@ -2,6 +2,6 @@
 
 entity framwork core code first with 
 
-##### local MsSql - Samurai App
+- local MsSql ->Samurai App
 
 
