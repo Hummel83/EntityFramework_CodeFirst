@@ -1,7 +1,7 @@
 # test solution
 
-entity framwork core code first with 
+entity framwork code first with 
 
-- local MsSql ->Samurai App
+- local MsSql
 
 
