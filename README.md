@@ -1,7 +1,5 @@
 # test solution
 
-entity framwork code first with 
-
-- local MsSql
+entity framwork core code first with local MsSql
 
 
