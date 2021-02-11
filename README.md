@@ -2,6 +2,6 @@
 
 entity framwork code first with 
 
-##### local MsSql
-#### SqLite 
+- local MsSql
+
 
