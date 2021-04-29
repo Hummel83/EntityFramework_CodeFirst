@@ -1,0 +1,19 @@
+version: 2
+updates:
+- package-ecosystem: nuget
+  directory: "/"
+  schedule:
+    interval: weekly
+    day: sunday
+    time: "08:00"
+    timezone: Europe/Berlin
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: Microsoft.EntityFrameworkCore.Tools
+    versions:
+    - 5.0.4
+    - 5.0.5
+  - dependency-name: Microsoft.EntityFrameworkCore.Design
+    versions:
+    - 5.0.4
+    - 5.0.5
